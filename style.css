@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+}
+
+header{
+    background-color:darkslategray;
+    color: white;
+    border-bottom: 5px solid black;
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+label{
+    display: inline-block;
+    vertical-align: middle;
+    width: 8%;
+    padding: 16px;
+
+    background-color:darkslategray;
+    color: white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+textarea{
+    resize: none;
+    vertical-align: bottom;
+    height: 50px;
+    width: 50%;
+    
+}
+
+.savebtn{
+    display: inline-block;
+    height: 55px;
+    width: 5%;
+    border-radius: 0px 10px 10px 0px;
+
+    color: white;
+    background-color: tomato;
+}
+
+.past{
+    background-color: lightgrey;
+}
+
+.current{
+    background-color: lightsalmon;
+}
+
+.future{
+    background-color: lightgreen;
+}
+
